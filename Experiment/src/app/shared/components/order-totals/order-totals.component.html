@@ -1,0 +1,32 @@
+
+<div  class="card">
+<div class="row">
+<div   class="col-md-10 summary">
+    <div>
+        <h5><b>Order Summary</b></h5>
+    </div>
+    <hr>
+    <div class="row">
+        <div class="col" style="padding-left:0;"><strong >Order subtotal</strong></div>
+        <div class="col text-right">{{subtotal | currency:'R'}}</div>
+    </div>
+    <form>
+        <p><strong >Shipping and handling</strong></p> 
+        <p class="font-italic mb-4">Shipping costs will be added depending on choices made during checkout</p>
+        <div class="col text-right">{{shippingPrice | currency:'R'}}</div>
+       
+    <div class="row" style="border-top: 1px solid rgba(0,0,0,.1); padding: 2vh 0;">
+        <div class="col"><strong >Total</strong></div>
+        <div class="col text-right">{{total | currency:'R'}}</div>
+        
+    </div> 
+</form>
+
+</div>
+
+</div>
+
+
+
+
+

@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import {PaginationModule, CarouselModule, BsDropdownModule} from 'ngx-bootstrap';
+import {PaginationModule, CarouselModule, BsDropdownModule, TabsModule} from 'ngx-bootstrap';
 import { PagingHeaderComponent } from './components/paging-header/paging-header.component';
 import { PagerComponent } from './components/pager/pager.component';
 import { OrderTotalsComponent } from './components/order-totals/order-totals.component';
@@ -10,10 +10,15 @@ import {CdkStepperModule} from '@angular/cdk/stepper';
 import { StepperComponent } from './components/stepper/stepper.component';
 import { BasketSummaryComponent } from './components/basket-summary/basket-summary.component';
 import { RouterModule } from '@angular/router';
-import { MaterialModule } from '../material/material.module';
+import {CurrencyMaskModule} from 'ng2-currency-mask';
+import {NgxGalleryModule} from '@kolkov/ngx-gallery';
+import { PhotoWidgetComponent } from './components/photo-widget/photo-widget.component';
+import {NgxDropzoneModule} from 'ngx-dropzone';
+import {ImageCropperModule} from 'ngx-image-cropper';
 
 @NgModule({
-  declarations: [PagingHeaderComponent, PagerComponent, OrderTotalsComponent, TextInputComponent, StepperComponent, BasketSummaryComponent],
+  // tslint:disable-next-line: max-line-length
+  declarations: [PagingHeaderComponent, PagerComponent, OrderTotalsComponent, TextInputComponent, StepperComponent, BasketSummaryComponent, PhotoWidgetComponent],
   imports: [
     CommonModule,
     PaginationModule.forRoot(),
@@ -23,7 +28,11 @@ import { MaterialModule } from '../material/material.module';
     FormsModule,
     CdkStepperModule,
     RouterModule,
-    MaterialModule
+    CurrencyMaskModule,
+    NgxGalleryModule,
+    TabsModule.forRoot(),
+    NgxDropzoneModule,
+    ImageCropperModule
   ],
   exports: [
     PaginationModule,
@@ -37,7 +46,13 @@ import { MaterialModule } from '../material/material.module';
     TextInputComponent,
     CdkStepperModule,
     StepperComponent,
-    BasketSummaryComponent
+    BasketSummaryComponent,
+    CurrencyMaskModule,
+    NgxGalleryModule,
+    TabsModule,
+    NgxDropzoneModule,
+    ImageCropperModule,
+    PhotoWidgetComponent
   ]
 })
 export class SharedModule { }

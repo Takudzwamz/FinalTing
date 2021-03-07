@@ -1,0 +1,9 @@
+C:\Users\zhout\Pictures\FinalTing\Core\bin\Release\netstandard2.1\Core.deps.json
+C:\Users\zhout\Pictures\FinalTing\Core\bin\Release\netstandard2.1\Core.dll
+C:\Users\zhout\Pictures\FinalTing\Core\bin\Release\netstandard2.1\Core.pdb
+C:\Users\zhout\Pictures\FinalTing\Core\obj\Release\netstandard2.1\Core.csprojAssemblyReference.cache
+C:\Users\zhout\Pictures\FinalTing\Core\obj\Release\netstandard2.1\Core.AssemblyInfoInputs.cache
+C:\Users\zhout\Pictures\FinalTing\Core\obj\Release\netstandard2.1\Core.AssemblyInfo.cs
+C:\Users\zhout\Pictures\FinalTing\Core\obj\Release\netstandard2.1\Core.csproj.CoreCompileInputs.cache
+C:\Users\zhout\Pictures\FinalTing\Core\obj\Release\netstandard2.1\Core.dll
+C:\Users\zhout\Pictures\FinalTing\Core\obj\Release\netstandard2.1\Core.pdb

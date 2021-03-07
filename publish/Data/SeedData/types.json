@@ -1,0 +1,35 @@
+[
+  {
+    "Id": 1,
+    "Name": "Cakes"
+  },
+  {
+    "Id": 2,
+    "Name": "Cup Cakes"
+  },
+  {
+    "Id": 3,
+    "Name": "Cookies"
+  },
+  {
+    "Id": 4,
+    "Name": "Magwinya"
+  },
+  {
+    "Id": 5,
+    "Name": "Biltong"
+  },
+  {
+    "Id": 6,
+    "Name": "Beverages"
+  },
+  {
+    "Id": 7,
+    "Name": "Muffins"
+  },
+  {
+    "Id": 8,
+    "Name": "Sandwich"
+  }
+  
+]

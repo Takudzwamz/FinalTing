@@ -1,0 +1,16 @@
+C:\Users\zhout\Pictures\FinalTing\Infrastructure\bin\Release\netstandard2.1\Data\SeedData\brands.json
+C:\Users\zhout\Pictures\FinalTing\Infrastructure\bin\Release\netstandard2.1\Data\SeedData\delivery.json
+C:\Users\zhout\Pictures\FinalTing\Infrastructure\bin\Release\netstandard2.1\Data\SeedData\products.json
+C:\Users\zhout\Pictures\FinalTing\Infrastructure\bin\Release\netstandard2.1\Data\SeedData\types.json
+C:\Users\zhout\Pictures\FinalTing\Infrastructure\bin\Release\netstandard2.1\Infrastructure.deps.json
+C:\Users\zhout\Pictures\FinalTing\Infrastructure\bin\Release\netstandard2.1\Infrastructure.dll
+C:\Users\zhout\Pictures\FinalTing\Infrastructure\bin\Release\netstandard2.1\Infrastructure.pdb
+C:\Users\zhout\Pictures\FinalTing\Infrastructure\bin\Release\netstandard2.1\Core.dll
+C:\Users\zhout\Pictures\FinalTing\Infrastructure\bin\Release\netstandard2.1\Core.pdb
+C:\Users\zhout\Pictures\FinalTing\Infrastructure\obj\Release\netstandard2.1\Infrastructure.csprojAssemblyReference.cache
+C:\Users\zhout\Pictures\FinalTing\Infrastructure\obj\Release\netstandard2.1\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\zhout\Pictures\FinalTing\Infrastructure\obj\Release\netstandard2.1\Infrastructure.AssemblyInfo.cs
+C:\Users\zhout\Pictures\FinalTing\Infrastructure\obj\Release\netstandard2.1\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\zhout\Pictures\FinalTing\Infrastructure\obj\Release\netstandard2.1\Infrastructure.csproj.CopyComplete
+C:\Users\zhout\Pictures\FinalTing\Infrastructure\obj\Release\netstandard2.1\Infrastructure.dll
+C:\Users\zhout\Pictures\FinalTing\Infrastructure\obj\Release\netstandard2.1\Infrastructure.pdb

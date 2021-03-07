@@ -36,7 +36,7 @@ namespace API.Controllers
             return new UserDto
             {
                 Email = user.Email,
-                Token = _tokenService.CreateToken(user),
+                Token = await _tokenService.CreateToken(user),
                 DisplayName = user.DisplayName
             };
         }
@@ -49,13 +49,11 @@ namespace API.Controllers
 
         [Authorize]
         [HttpGet("address")]
-        public async Task<ActionResult<AdressDTO>> GetUserAddress()
+        public async Task<ActionResult<AddressDto>> GetUserAddress()
         {
             var user = await _userManager.FindByUserByClaimsPrincipleWithAddressAsync(HttpContext.User);
 
-            var item = _mapper.Map<Address, AdressDTO>(user.Address);
-            // item.PhoneNumber = user.PhoneNumber;
-            return item;
+            return _mapper.Map<Address, AddressDto>(user.Address);
         }
 
         [Authorize]
@@ -87,7 +85,7 @@ namespace API.Controllers
             return new UserDto
             {
                 Email = user.Email,
-                Token = _tokenService.CreateToken(user),
+                Token = await _tokenService.CreateToken(user),
                 DisplayName = user.DisplayName
             };
         }
@@ -97,7 +95,7 @@ namespace API.Controllers
         {
             if (CheckEmailExistsAsync(registerDto.Email).Result.Value)
             {
-                return new BadRequestObjectResult(new ApiValidationErrorResponse{Errors = new []{"Email address is in use"}});
+                return new BadRequestObjectResult(new ApiValidationErrorResponse { Errors = new[] { "Email address is in use" } });
             }
 
             var user = new AppUser
@@ -111,10 +109,14 @@ namespace API.Controllers
 
             if (!result.Succeeded) return BadRequest(new ApiResponse(400));
 
+            var roleAddResult = await _userManager.AddToRoleAsync(user, "Member");
+
+            if (!roleAddResult.Succeeded) return BadRequest("Failed to add to role");
+
             return new UserDto
             {
                 DisplayName = user.DisplayName,
-                Token = _tokenService.CreateToken(user),
+                Token = await _tokenService.CreateToken(user),
                 Email = user.Email
             };
         }

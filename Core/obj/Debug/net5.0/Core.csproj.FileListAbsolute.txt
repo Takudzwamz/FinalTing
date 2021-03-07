@@ -1,0 +1,12 @@
+C:\Users\zhout\Pictures\FinalTing\Core\bin\Debug\net5.0\Core.deps.json
+C:\Users\zhout\Pictures\FinalTing\Core\bin\Debug\net5.0\Core.dll
+C:\Users\zhout\Pictures\FinalTing\Core\bin\Debug\net5.0\ref\Core.dll
+C:\Users\zhout\Pictures\FinalTing\Core\bin\Debug\net5.0\Core.pdb
+C:\Users\zhout\Pictures\FinalTing\Core\obj\Debug\net5.0\Core.csprojAssemblyReference.cache
+C:\Users\zhout\Pictures\FinalTing\Core\obj\Debug\net5.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zhout\Pictures\FinalTing\Core\obj\Debug\net5.0\Core.AssemblyInfoInputs.cache
+C:\Users\zhout\Pictures\FinalTing\Core\obj\Debug\net5.0\Core.AssemblyInfo.cs
+C:\Users\zhout\Pictures\FinalTing\Core\obj\Debug\net5.0\Core.csproj.CoreCompileInputs.cache
+C:\Users\zhout\Pictures\FinalTing\Core\obj\Debug\net5.0\Core.dll
+C:\Users\zhout\Pictures\FinalTing\Core\obj\Debug\net5.0\ref\Core.dll
+C:\Users\zhout\Pictures\FinalTing\Core\obj\Debug\net5.0\Core.pdb

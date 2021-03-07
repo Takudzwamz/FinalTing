@@ -9,6 +9,9 @@
   </!--<div> -->
   <div class="name"><a style="font-size: 20px;text-decoration: none;
   color: white;" class="p-2 " routerLink="/shop" routerLinkActive="active"> Shop</a>
+  <a *ngIf="(isAdmin$ | async)"  style="font-size: 20px;text-decoration: none;
+  color: white;" class="p-2 " routerLink="/admin" routerLinkActive="active"> Admin</a>
+
   </div>
 
   <div class="spacer"></div>

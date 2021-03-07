@@ -1,3 +1,6 @@
+
+
+<section style="margin-top:20px" class="blur">
 <div class="mt-4" [formGroup]="checkoutForm">
     <h4 class="mb-3">Choose your delivery method</h4>
     <div class="row ml-5" formGroupName="deliveryForm">
@@ -9,7 +12,7 @@
                 formControlName="deliveryMethod"
                 class="custom-control-input">
             <label for="{{method.id}}" class="custom-control-label">
-                <strong>{{method.shortName}} - {{method.price | currency}}</strong>
+                <strong>{{method.shortName}} - {{method.price | currency:'R'}}</strong>
                 <br>
                 <span class="label-description">{{method.description}}</span>
             </label>
@@ -17,7 +20,7 @@
     </div>
 </div>
 
-<div class="float-none d-flex justify-content-between flex-column flex-lg-row mb-5">
+<div class="float-none d-flex justify-content-between flex-column flex-lg-row mt-2 mb-5">
     <button class="btn btn-outline-primary" cdkStepperPrevious>
         <i class="fa fa-angle-left"></i> Back to Address
     </button>
@@ -25,3 +28,5 @@
         Go to Review <i class="fa fa-angle-right"></i> 
     </button>
 </div>
+
+</section>

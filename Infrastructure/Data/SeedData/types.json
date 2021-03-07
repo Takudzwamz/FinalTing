@@ -5,19 +5,31 @@
   },
   {
     "Id": 2,
-    "Name": "Cupcakes"
+    "Name": "Cup Cakes"
   },
   {
     "Id": 3,
-    "Name": "Donuts"
+    "Name": "Cookies"
   },
   {
     "Id": 4,
-    "Name": "Bread"
+    "Name": "Magwinya"
   },
   {
     "Id": 5,
-    "Name": "Drinks"
+    "Name": "Biltong"
+  },
+  {
+    "Id": 6,
+    "Name": "Beverages"
+  },
+  {
+    "Id": 7,
+    "Name": "Muffins"
+  },
+  {
+    "Id": 8,
+    "Name": "Sandwich"
   }
   
 ]

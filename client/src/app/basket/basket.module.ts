@@ -3,13 +3,15 @@ import { CommonModule } from '@angular/common';
 import { BasketComponent } from './basket.component';
 import { BasketRoutingModule } from './basket-routing.module';
 import { SharedModule } from '../shared/shared.module';
+import { MaterialModule } from '../material/material.module';
 
 @NgModule({
   declarations: [BasketComponent],
   imports: [
     CommonModule,
     BasketRoutingModule,
-    SharedModule
+    SharedModule,
+    MaterialModule
   ]
 })
 export class BasketModule { }

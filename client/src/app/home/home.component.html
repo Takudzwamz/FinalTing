@@ -1,16 +1,39 @@
-<carousel>
-    <slide>
-        <img src="assets/images/hero1.jpg" alt="first slide" style="display: block; width: 100%;">
-    </slide>
-    <slide>
-        <img src="assets/images/hero2.jpg" alt="first slide" style="display: block; width: 100%;">
-    </slide>
-    <slide>
-        <img src="assets/images/hero3.jpg" alt="first slide" style="display: block; width: 100%;">
-    </slide>
-</carousel>
-<section class="featured">
-    <div class="d-flex justify-content-center pt-4">
-        <h1>Welcome to the Shop!</h1>
-    </div>
-</section>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="container">
+    <!-- Showcase -->
+    <header class="showcase">
+        <h2>Tashe Bakery & Biltong</h2>
+        <p>
+            <strong>You think it, we make it.</strong>.
+        </p>
+
+    </header>
+
+    <!-- Xbox -->
+    <section class="xbox">
+        <!---->
+        <div class="content">
+            <h2>Check our shop.</h2>
+
+            <a href="/shop" class="btn">
+                Shop Now <i class="fa fa-chevron-right"></i>
+            </a>
+        </div>
+
+    </section>
+
+    <!-- Carbon -->
+    <section class="carbon dark">
+        <div class="content">
+            <h2>Customize your cake</h2>
+            <p>Why not make the cake special, give us a call and make your wishies and we will make them come true,
+                all you need to do is make a call on <strong>+27 74 925 1317.</strong></p>
+
+        </div>
+    </section>
+</div>
+
+<script>
+    document.querySelector('.menu-btn').addEventListener('click', () => document.querySelector('.main-menu').classList.toggle('show'));
+</script>

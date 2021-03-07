@@ -1,4 +1,8 @@
-<div class="mt-4" [formGroup]="checkoutForm">
+
+
+
+<section style="margin-top:20px" class="blur">
+    <div class="mt-4" [formGroup]="checkoutForm">
     <div class="d-flex justify-content-between align-items-center">
         <h4>Shipping address</h4>
         <button 
@@ -6,7 +10,7 @@
             [disabled]="!checkoutForm.get('addressForm').valid || 
                 !checkoutForm.get('addressForm').dirty"
             class="btn btn-outline-success mb-3">
-            Save as default address
+            Save Address
         </button>
     </div>
     <div class="row" formGroupName="addressForm">
@@ -28,10 +32,13 @@
         <div class="form-group col-6">
             <app-text-input [label]="'Zip Code'" formControlName="zipcode"></app-text-input>
         </div>
+           <div class="form-group col-6">
+          <app-text-input [label]="'Phone Number'" formControlName="phoneNumber"></app-text-input>
+      </div>
     </div>
 </div>
 
-<div class="float-none d-flex justify-content-between flex-column flex-lg-row mb-5">
+<div  class="float-none d-flex justify-content-between flex-column flex-lg-row mt-2 mb-5">
     <button class="btn btn-outline-primary" routerLink="/basket">
         <i class="fa fa-angle-left"></i> Back to Basket
     </button>
@@ -39,3 +46,4 @@
         Go to Delivery <i class="fa fa-angle-right"></i> 
     </button>
 </div>
+</section>

@@ -11,7 +11,7 @@
     "Name": "Red velvet cake",
     "Description": "Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.",
     "Price": 150,
-    "PictureUrl": "images/products/cake1.jpg",
+    "PictureUrl": "images/products/cake6.jpg",
     "ProductTypeId": 1,
     "ProductBrandId": 1
   },
@@ -131,7 +131,7 @@
     "Name": "Chocolate bread",
     "Description": "Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.",
     "Price": 150,
-    "PictureUrl": "images/products/bread1.jpg",
+    "PictureUrl": "images/products/bread.jpg",
     "ProductTypeId": 4,
     "ProductBrandId": 4
   },
